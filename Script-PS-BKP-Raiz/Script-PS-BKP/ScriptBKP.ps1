@@ -1,6 +1,6 @@
 # Parâmetros
-$sourceFolder = "C:\Caminho\Para\PastaOrigem"       # <<<< SUBSTITUIR Pasta que você deseja fazer o backup
-$destinationFolder = "D:\Backups"                  # <<<< SUBSTITUIR Onde você deseja armazenar os backups
+$sourceFolder = "C:\Caminho\Para\PastaOrigem"       # <<< SUBSTITUIR Pasta que você deseja fazer o backup
+$destinationFolder = "D:\Backups"                  # <<< SUBSTITUIR Onde você deseja armazenar os backups
 $timestamp = Get-Date -Format "yyyy-MM-dd_HH-mm"   # Carimbo de data/hora para nome das pastas
 
 # Destino do backup com pasta nomeada pelo timestamp
